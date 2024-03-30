@@ -1,3 +1,9 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "POSTS",
+  description: "some notes about nextJs",
+};
 
 export default async function PostsPage() {
 
